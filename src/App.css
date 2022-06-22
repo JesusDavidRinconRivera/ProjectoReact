@@ -1,8 +1,7 @@
 
  *{
   margin: 0;
-  padding: 0;
- }
+  padding: 0;}
 
 .App-header {
   min-height: 100vh;
@@ -10,78 +9,59 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  background: yellowgreen;
-}
+  background: rgb(74, 10, 134);}
 
-.Titulo{
-  position: relative;
-  top: -200px;
-  left: 1180px;
-  background: violet;
-  height: 120px;
-  width: 130px;
-  font-family: Street;
-
-}
-.HLogo{
-  position: relative;
-  height: 210px;
-  background: firebrick;
+  .slider{
+    position: relative;
+    background: maroon;
+    width: 1700px;
+    height: 800px;
+    display: flex;
+    overflow: hidden;
+  }
   
-  
-}
-
-.Banner{
-  position: relative;
-  background: skyblue;
-  width: 100%;
-  height: 250px;
-  top: -200px;
-}
-
-@font-face {
-  font-family: Street;
-  src: url("./Fuentes/Walking\ in\ the\ Street.ttf");
-}
-.slider{
-  width: 50%;
-  margin: auto;
-  overflow: hidden;
-  position: relative;
-  top: 200px;
-  right:900px;
-}
-
 .slider ul{
+  padding: 0;
   display: flex;
   padding: 0%;
-  width: 400%;
+  width: 300%;
   animation: Cambio 20s infinite;
 }
 
-.slider  img{
-  width:100px;
-  
-}
 .slider li{
   list-style: none;
-  width: 50%;
+  width: 100%;
+
 }
 
-.SliderPollo img {
-     background: seagreen;
-     margin: auto;
-     
+
+
+
+.PolloAsado{
+  background: red;  
+  width: 1700px;
+  height: 800px;
+  margin: auto;
+}
+
+.PolloParmesano{
+  background:turquoise;  
+  width: 1700px;
+  height: 800px;
+  margin: auto;
+}
+.PolloKarague{
+  background:turquoise;  
+  width: 1700px;
+  height: 800px;
+  margin: auto;
 }
 
 @keyframes Cambio{
-  0%{ margin-left: 0;}
+  0%{margin-left: 0;}
   20%{margin-left: 0;}
-
   25%{margin-left: -100%;}
   45%{margin-left: -100%;}
-
   50%{margin-left: -200%;}
   70%{margin-left: -200%;}
-
 }
