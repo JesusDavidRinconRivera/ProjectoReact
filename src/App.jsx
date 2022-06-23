@@ -4,6 +4,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <div className="Banner">
+          <img src={Imagenes.logo} alt="" className="Hlogo" />
+        </div>
       <div className="slider">
         <ul>
          <li><img  className = "PolloAsado" src={Imagenes.Slider_1  }  /></li>

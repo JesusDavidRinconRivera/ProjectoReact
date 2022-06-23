@@ -11,14 +11,15 @@
   font-size: calc(10px + 2vmin);
   background: rgb(74, 10, 134);}
 
-  .slider{
-    position: relative;
-    background: maroon;
-    width: 1700px;
-    height: 800px;
+.slider{
+    position: absolute;
+    background:black;
     display: flex;
     overflow: hidden;
-  }
+    top: 350px;
+    width: 1700px;
+    height: 800px;
+}
   
 .slider ul{
   padding: 0;
@@ -33,9 +34,6 @@
   width: 100%;
 
 }
-
-
-
 
 .PolloAsado{
   background: red;  
@@ -64,4 +62,13 @@
   45%{margin-left: -100%;}
   50%{margin-left: -200%;}
   70%{margin-left: -200%;}
+}
+
+.Banner{
+  position: relative;
+  background: skyblue;
+  width: 37000%;
+  height: 250px;
+  top:-370px;
+  left: 0px;
 }
