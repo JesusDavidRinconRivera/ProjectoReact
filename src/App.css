@@ -7,9 +7,7 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  background: rgb(74, 10, 134);}
+  justify-content: center;}
 
 .slider{
     position: absolute;
@@ -18,29 +16,24 @@
     overflow: hidden;
     top: 350px;
     width: 1700px;
-    height: 800px;
-}
+    height: 800px;}
   
 .slider ul{
   padding: 0;
   display: flex;
   padding: 0%;
   width: 300%;
-  animation: Cambio 20s infinite;
-}
+  animation: Cambio 20s infinite;}
 
 .slider li{
   list-style: none;
-  width: 100%;
-
-}
+  width: 100%;}
 
 .PolloAsado{
   background: red;  
   width: 1700px;
   height: 800px;
-  margin: auto;
-}
+  margin: auto;}
 
 .PolloParmesano{
   background:turquoise;  
@@ -54,8 +47,7 @@
   height: 800px;
   margin: auto;
 }
-
-@keyframes Cambio{
+ @keyframes Cambio{
   0%{margin-left: 0;}
   20%{margin-left: 0;}
   25%{margin-left: -100%;}
@@ -66,9 +58,64 @@
 
 .Banner{
   position: relative;
-  background: skyblue;
+  background: rgb(34, 167, 255);
   width: 37000%;
   height: 250px;
   top:-370px;
   left: 0px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;}
+
+  @font-face {
+    font-family: Street;
+    src: url("./Fuentes/SSF4\ ABUKET.ttf");
+  }
+
+.Titulo{
+  position: relative;
+  top: -350px;
+  
+  left: 1175px;
+  font-size: 50px;
+  font-family: Street;
+  margin: 1px;
+  width: 600px;
+}
+
+.Street{
+  
+  width: 10px;
+  position: relative;
+  color: white;
+
+  }
+.food{
+  top: -100px;
+  position: relative;
+  width: 10px;
+  color: white;
+  
+
+}
+
+.Titulo2{
+  position: relative;
+  top: -830px;
+  left: 1170px;
+  font-size: 50px;
+  font-family: Street;
+  margin: 1px;
+  width: 600px;
+}
+
+.Street2{
+  width: 10px;
+  position: relative;
+  color: black;
+  }
+.food2{
+  color:black;
+  top: -100px;
+  position: relative;
+  width: 10px;
 }
